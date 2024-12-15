@@ -3,7 +3,7 @@
     <!-- Top Navigation Bar -->
     <v-app-bar app color="#151515" class="px-5">
       <!-- App Title -->
-      <v-toolbar-title class="text-h5 font-weight-black">Title</v-toolbar-title>
+      <v-toolbar-title class="text-h5 font-weight-black">Receiver</v-toolbar-title>
       
       <!-- Navigation Tabs -->
       <v-tabs v-model="activeTab" class="mx-5">
@@ -11,7 +11,7 @@
           <v-icon left class="me-1">mdi-view-dashboard</v-icon> Dashboard
         </v-tab>
         <v-tab value="chats">
-          <v-icon left class="me-1">mdi-chat</v-icon> Send a Message
+          <v-icon left class="me-1">mdi-chat</v-icon> Receive a Message
         </v-tab>
       </v-tabs>
       
