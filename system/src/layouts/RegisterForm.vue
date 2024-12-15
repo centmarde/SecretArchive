@@ -69,7 +69,7 @@ export default {
         !password.value ||
         !confirmPassword.value
       ) {
-        toast.error("Please fill out all fields.");
+        toast("Please fill out all fields.");
         return false;
       }
 
@@ -104,12 +104,5 @@ export default {
 </script>
 
 <style scoped>
-.bg-card {
-  /* From https://css.glass */
-  background: #0e2947e4;
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5.3px);
-  -webkit-backdrop-filter: blur(3.3px);
-}
+
 </style>
